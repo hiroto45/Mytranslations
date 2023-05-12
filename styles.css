@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+i{
+  opacity: .6;
+}
+body{
+  background-color: rgb(23, 58, 110);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+ box-sizing: border-box;
+}
+
+ul{
+list-style: none;
+}
+
+.container{
+  max-width: 690px;
+  width: 100%;
+  height: 300px;
+  background-color: white;
+ border-radius: 8px;
+ padding: 10px;
+}
+
+.FormWrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.FormWrapper textarea{
+  all: unset;
+  border: 1px solid black;
+  height: 180px;
+  width: 100%;
+}
+.FormWrapper textarea::placeholder{
+  opacity: .4;
+}
+.wrapper ul{
+  /* outline: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px;
+}
+.volume-text{
+  /* outline: 1px solid rebeccapurple; */
+  width: 190px;
+}
+.wrapper ul li{
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper ul li select{
+ border: none;
+}
+
+.btn{
+  all: unset;
+  font-size: 16px;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px 0;
+  background-color: rgb(23, 58, 110);
+  border-radius: 8px;
+}
+
+
+
